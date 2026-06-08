@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import Installed from "../Pages/Installed";
 import Error from "../Pages/Error";
+import AppDetails from "../Pages/AppDetails";
 
 
 
@@ -25,8 +26,11 @@ const router = createBrowserRouter([
       {
         path: '/Installation',
         Component: Installed
+      },
+      {
+        path: '/AppDetails/:id',
+        Component: AppDetails
       }
-
     
     ]
   },
