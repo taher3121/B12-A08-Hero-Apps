@@ -1,0 +1,20 @@
+a.active {
+    background: linear-gradient(-70deg, #632EE3 0%, #9F62F2 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}
+
+a.pending {
+    color: blue;
+}
+
+a.transitioning {
+    view-transition-name: my-transition;
+}
+
+.NavText{
+    background: linear-gradient(-70deg, #632EE3 0%, #9F62F2 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
